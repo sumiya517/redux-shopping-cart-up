@@ -1,0 +1,128 @@
+nav {
+  height: 80px;
+  background-color: rgb(218, 230, 230);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+nav img {
+  height: 60px;
+}
+nav .cart-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .cart-img .count {
+  position: absolute;
+  right: 45px;
+  top: 10px;
+  text-align: center;
+  font-weight: 600;
+  width: 18px;
+  padding: 5px;
+  background-color: rgb(253, 203, 64);
+  border-radius: 50%;
+}
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-list {
+  padding: 30px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.product-list-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: azure;
+  padding: 30px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product-list-card-img {
+  width: 80%;
+  height: 180px;
+}
+.product-list-card-title,
+.product-list-card-price {
+  margin: 0px;
+}
+
+.product-list-card-btn,
+.cart-back-btn {
+  padding: 8px 20px;
+  background-color: white;
+  border-radius: 6px;
+  border: 0ch;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.product-list-card-btn:hover,
+.cart-back-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cart-back-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cart-back-btn img {
+  height: 18px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 50px;
+}
+
+.cart-container-title,
+.cart-container-items {
+  width: 100%;
+}
+
+.cart-container-title-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+.cart-container-title h3 {
+  margin: 0;
+}
+
+.cart-container-items-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+.cart-container-items-card-list img {
+  width: 100px;
+}
